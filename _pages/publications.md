@@ -8,12 +8,16 @@ author_profile: true
 ## Working Papers
 - Mediating Post-Civil War Peace: Third Parties in Design and Implementation of Civil War Peace Settlements,
 with Chong Chen and Colin Flint 
-- Provision of Infrastructure and Local Conflict: Project-level Evidence from China’s Belt and Road Initiative, with Chong Chen and Bei Huang 
-- Dissecting the Digital Dark: Internet Shutdowns and Domestic Conflicts 
-- Digital Shutdowns and Civil War Dynamics: A Textual Causal Analysis
+- Provision of Infrastructure and Local Conflict: Project-level Evidence from China’s Belt and Road Initiative, with Chong Chen and Bei Huang
+- Unintended Consequences: How Peacekeeping Operation Affect External Support in Civil Wars, with Chong Chen and Xiaoyu Si
 - Can Belt and Road Initiative Win Minds and Hearts on Social Media? Evidence from Twitter, with Pu Yan and Ralph Schroeder 
 - Agenda Setting Research Meets Big Data: A Literature Review Since 2016, with Scott Hale and Pu Yan 
 - China’s Debt Trap Discourse: Rhetoric vs. Reality in Developing Economies, with Wen Zha 
+
+## Papers in Progress
+- Dissecting the Digital Dark: Internet Shutdowns and Domestic Conflicts, with Xiaoshu Gui
+- Digital Shutdowns and Civil War Dynamics: A Textual Causal Analysis
+- Crafting Enduring Peace: Strategic Design of Peace Agreements in Civil War Resolution
 
 ## Published Papers
 - Wen Zha and **Huiyi Lyu**, “Values, Procedures, or Performance? Understanding Economic Dependence and Foreign Policy of Small and Medium-Sized Countries on China in the Lens of Legitimacy,” Journal of Contemporary Asia-Pacific Studies (in Chinese), No.2, 2020, pp.87-114.
