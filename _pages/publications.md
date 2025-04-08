@@ -21,7 +21,7 @@ with Chong Chen and Colin Flint
 
 ## Published Papers (selected)
 - Xiaoshu Gui and **Huiyi Lyu**, “Information Governance and Domestic Conflict: Empirical Testing of Signaling Game Theoretical Models,” World Economics and Politics (世界经济与政治), No.3, 2025, pp.63-93.
-
+        - [PDF](/files/information governance.pdf)
 - **Huiyi Lyu**, Xiaoyu Si, and Chong Chen, “How do International Peacekeeping Operations Affect External Support in Civil Wars,” World Economics and Politics (世界经济与政治), No. 11, 2024, pp.29-59.
         - [PDF](/files/external_suport.pdf)
 - Wen Zha and **Huiyi Lyu**, “Values, Procedures, or Performance? Understanding Economic Dependence and Foreign Policy of Small and Medium-Sized Countries on China in the Lens of Legitimacy,” Journal of Contemporary Asia-Pacific Studies (当代亚太), No.2, 2020, pp.87-114.
