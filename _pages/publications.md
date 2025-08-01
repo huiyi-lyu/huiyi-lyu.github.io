@@ -10,7 +10,6 @@ author_profile: true
 - Mediating Post-Civil War Peace: Third Parties in Design and Implementation of Civil War Peace Settlements,
 with Chong Chen and Colin Flint 
 - Why Anti-China Discourse Waning: A LLM Analysis of Social Media Narratives on Twitter, with Wen Zha 
-- Can BRI Win Minds and Hearts on Social Media? Evidence from Twitter, with Pu Yan and Ralph Schroeder 
 - Agenda Setting Research Meets Big Data: A Literature Review Since 2016, with Scott Hale and Pu Yan 
 
 ## Papers in Progress
