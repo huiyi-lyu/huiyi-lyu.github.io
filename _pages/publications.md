@@ -10,6 +10,7 @@ author_profile: true
 - Mediating Post-Civil War Peace: Third Parties in Design and Implementation of Civil War Peace Settlements,
 with Chong Chen and Colin Flint  
 - When agenda setting research meets big data: A literature review since 2016” with Pu Yan, Buddy Janssen, Niloofar Hashemi and Scott Hale
+    - [PDF](/files/agenda_setting.pdf)
 - Can Belt and Road Initiative Win Minds and Hearts on Social Media? Evidence from Twitter” with Ralph Schroeder and Pu Yan
 - Competing Narratives, Emotional Ripples: Mapping BRI Global Sentiment Diffusion on Twitter
 with Large Language Models
