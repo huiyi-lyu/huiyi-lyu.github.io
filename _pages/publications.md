@@ -14,9 +14,13 @@ with Chong Chen and Colin Flint
 - When agenda setting research meets big data: A literature review since 2016” with Pu Yan, Buddy Janssen, Niloofar Hashemi and Scott Hale
     - [PDF](/files/agenda_setting.pdf)
 - Can Belt and Road Initiative Win Minds and Hearts on Social Media? Evidence from Twitter” with Ralph Schroeder and Pu Yan
-    - [Slides](/files/0709_slides_Huiyi 2.pdf.pdf)
+    - [Slides](/files/0709_slides_Huiyi 2.pdf)
 - Competing Narratives, Emotional Ripples: Mapping BRI Global Sentiment Diffusion on Twitter
 with Large Language Models
+- Fueling Conflict or Fostering Peace? The Logic of Third-Party Dual Intervention in Civil Wars
+    - [Slides](/files/抑和还是促和_huiyi.pdf)
+
+
 
 ## Published Papers (selected)
 - Xiaoshu Gui and **Huiyi Lyu**, “Information Governance and Domestic Conflict: Empirical Testing of Signaling Game Theoretical Models,” World Economics and Politics (世界经济与政治), No.3, 2025, pp.63-93.
