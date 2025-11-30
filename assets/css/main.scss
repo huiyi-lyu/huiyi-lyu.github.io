@@ -42,36 +42,32 @@
 
 
 
----
----
-
-/* ============================
-   Harvard Gazette / HKS Title Style
-   Classic Serif + Bookish + Centered Elegance
-   ============================ */
-
 /* ===========================================
-   Custom Academic Style (Harvard-ish)
-   Serif-ish headings + bookish layout
+   Huiyi Lyu — Academic Tech Theme
+   Style: MIT Media Lab + 冷灰 & 科技蓝
+   作用范围：覆盖 Minimal Mistakes / AcademicPages 默认样式
    =========================================== */
 
-/* 引入一组偏书卷气的字体（仅网页用，不影响 LaTeX） */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+/* ========== 1. 字体（现代科技感 + 中文兼容） ========== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
 
-/* 颜色系统：柔和深灰 + 学术蓝 */
+/* ========== 2. 颜色系统（冷灰 + 科技蓝） ========== */
 :root {
-  --huiyi-bg-main:        #f5f5f8;
-  --huiyi-bg-card:        #ffffff;
-  --huiyi-text-main:      #111827;
-  --huiyi-text-soft:      #6b7280;
-  --huiyi-border-soft:    #e5e7eb;
-  --huiyi-accent-blue:    #1d4ed8;  /* 稍稳重的蓝 */
-  --huiyi-accent-blue-d:  #1e40af;
+  --huiyi-bg-main:        #f4f6fb;   /* 整体背景淡冷灰 */
+  --huiyi-bg-card:        #ffffff;   /* 内容区域卡片白 */
+  --huiyi-text-main:      #0f172a;   /* 正文深蓝灰 */
+  --huiyi-text-soft:      #64748b;   /* 次要文字灰蓝 */
+  --huiyi-border-soft:    #d4d6e0;   /* 细边线浅灰 */
+  --huiyi-accent-blue:    #2563eb;   /* 主色 科技蓝 */
+  --huiyi-accent-blue-d:  #1d4ed8;   /* 悬停更深的蓝 */
+  --huiyi-accent-indigo:  #4f46e5;   /* 引用等点缀 indigo */
 }
 
-/* 整体背景+字体基调 */
+/* ========== 3. 全局基础样式 ========== */
+
 body {
-  font-family: "Source Sans Pro", "PingFang SC", "Noto Sans SC",
+  font-family: "IBM Plex Sans", "Space Grotesk",
+               "PingFang SC", "Noto Sans SC",
                "Microsoft YaHei", sans-serif;
   font-size: 16.5px;
   line-height: 1.8;
@@ -80,64 +76,142 @@ body {
   background: var(--huiyi-bg-main);
 }
 
-/* 单页布局：中间一块“书页式”卡片 */
+/* 让单页布局在中间形成一个卡片效果 */
 .layout--single {
   max-width: 1100px;
   margin: 2.8rem auto 3.5rem;
   padding: 0 1.5rem;
 }
 
+/* 右侧主要页面（你的简介正文所在） */
 .layout--single .page {
   background: var(--huiyi-bg-card);
-  border-radius: 14px;
-  border: 1px solid var(--huiyi-border-soft);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
   padding: 2.2rem 2.4rem;
+  border: 1px solid rgba(212, 214, 224, 0.6);
 }
 
-/* 标题：使用 Serif，带一点 Harvard Gazette 的书卷感 */
+/* ========== 4. 顶部导航 / 页眉配色（冷静科技风） ========== */
+
+.masthead {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(212, 214, 224, 0.8);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.masthead__inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 导航链接 */
+.site-title {
+  font-family: "Space Grotesk", "IBM Plex Sans", "Noto Sans SC", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--huiyi-text-main);
+}
+
+.masthead a,
+.nav__item a {
+  color: var(--huiyi-text-main);
+  font-weight: 500;
+}
+
+.nav__item a:hover {
+  color: var(--huiyi-accent-blue);
+}
+
+/* 当前页面高亮的导航（如果启用） */
+.nav__item--current a {
+  color: var(--huiyi-accent-blue);
+  border-bottom: 2px solid var(--huiyi-accent-blue);
+}
+
+/* ========== 5. 左侧 Sidebar（头像 & 简介） ========== */
+
+.sidebar {
+  background: transparent;
+}
+
+/* 头像卡片效果 */
+.author__avatar img {
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.18);
+}
+
+/* 名字：大写间距 + 科技感 */
+.author__content .author__name {
+  font-family: "Space Grotesk", "IBM Plex Sans", "Noto Sans SC", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--huiyi-text-main);
+}
+
+/* 简短 Bio */
+.author__content .author__bio {
+  font-size: 14px;
+  color: var(--huiyi-text-soft);
+}
+
+/* 侧边栏社交图标颜色（若开启） */
+.author__urls a {
+  color: var(--huiyi-accent-blue);
+}
+.author__urls a:hover {
+  color: var(--huiyi-accent-blue-d);
+}
+
+/* ========== 6. 正文标题 & 文本排版 ========== */
+
+/* 标题：科技感 + 轻度字间距 */
 .page__content h1,
 .page__content h2,
 .page__content h3,
 .page__content h4,
 .page__content h5,
 .page__content h6 {
-  font-family: "Crimson Pro", "Times New Roman",
-               "Noto Serif SC", serif;
-  color: #111827;
-  letter-spacing: 0.04em;
+  font-family: "Space Grotesk", "IBM Plex Sans", "Noto Sans SC", sans-serif;
+  color: #020617;
+  letter-spacing: 0.06em;
   margin-top: 2rem;
   margin-bottom: 0.7rem;
 }
 
-/* 一级标题：大号粗体 */
 .page__content h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
-/* 二级标题：下划线分隔，更像报纸/期刊段落标题 */
 .page__content h2 {
   font-size: 22px;
-  font-weight: 600;
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid rgba(156, 163, 175, 0.6);
+  font-weight: 500;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.5);
 }
 
-/* 正文段落：两端对齐、阅读感更像论文 */
+.page__content h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* 正文段落：略紧凑但舒适，并且两端对齐 */
 .page__content p {
   margin-bottom: 1.1rem;
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* 列表文字也两端对齐 */
+/* 列表中的文字也两端对齐，整体更像论文排版 */
 .page__content li {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* 列表缩进与行距 */
+/* 列表缩进 & 间距微调 */
 .page__content ul,
 .page__content ol {
   padding-left: 1.4rem;
@@ -147,7 +221,8 @@ body {
   margin-bottom: 0.25rem;
 }
 
-/* 链接：低调的学术蓝＋细下划线 */
+/* ========== 7. 链接样式：细线条下划 + 科技蓝 ========== */
+
 .page__content a {
   color: var(--huiyi-accent-blue);
   font-weight: 500;
@@ -155,23 +230,40 @@ body {
   border-bottom: 1px solid rgba(37, 99, 235, 0.35);
   padding-bottom: 1px;
 }
+
 .page__content a:hover {
   color: var(--huiyi-accent-blue-d);
   border-bottom-color: rgba(37, 99, 235, 0.85);
 }
 
-/* 引用块：浅灰边 + 轻微背景，像报纸侧栏 */
+/* ========== 8. 引用块：科研注释框风格 ========== */
+
 .page__content blockquote {
   margin: 1.5rem 0;
   padding: 0.8rem 1.2rem;
-  border-left: 3px solid #9ca3af;
-  background: #f3f4f6;
-  border-radius: 6px;
-  color: #374151;
-  font-style: italic;
+  border-left: 3px solid var(--huiyi-accent-indigo);
+  background: #eef2ff;
+  border-radius: 8px;
+  color: #1e293b;
 }
 
-/* 小屏幕适配 */
+/* ========== 9. 代码区（如果将来有 code / pre） ========== */
+
+code, pre {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+               Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9em;
+}
+
+/* 行内 code 略微强调 */
+code {
+  background: #e5e7eb;
+  border-radius: 4px;
+  padding: 0.1rem 0.25rem;
+}
+
+/* ========== 10. 小屏适配（手机 / 平板） ========== */
+
 @media (max-width: 768px) {
   .layout--single {
     margin: 1.5rem auto 2.5rem;
@@ -180,7 +272,8 @@ body {
 
   .layout--single .page {
     padding: 1.6rem 1.3rem;
-    border-radius: 12px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
   }
 
   .page__content h1 {
