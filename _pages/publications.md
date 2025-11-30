@@ -5,18 +5,14 @@ permalink: /research/
 author_profile: true
 ---
 
-## Working Papers
+## Working Papers (selected)
 - Provision of Infrastructure and Local Conflict: Project-level Evidence from China’s Belt and Road Initiative, with Chong Chen and Bei Huang
 - Mediating Post-Civil War Peace: Third Parties in Design and Implementation of Civil War Peace Settlements,
-with Chong Chen and Colin Flint 
-- Why Anti-China Discourse Waning: A LLM Analysis of Social Media Narratives on Twitter, with Wen Zha 
-- Agenda Setting Research Meets Big Data: A Literature Review Since 2016, with Scott Hale and Pu Yan 
-
-## Papers in Progress
-- The Externalities of Civil Conflict: How External Support Networks Shape War Outcomes
-- Digital Shutdowns and Civil War Dynamics: A Textual Causal Analysis
-- Crafting Enduring Peace: Strategic Design of Peace Agreements in Civil War Resolution
-- Ripple Effects of Strategic Narrative: Sentiment Diffusion of Global Online Discourse on China’s BRI, with Xun Pang
+with Chong Chen and Colin Flint  
+- When agenda setting research meets big data: A literature review since 2016” with Pu Yan, Buddy Janssen, Niloofar Hashemi and Scott Hale
+- Can Belt and Road Initiative Win Minds and Hearts on Social Media? Evidence from Twitter” with Ralph Schroeder and Pu Yan
+- Competing Narratives, Emotional Ripples: Mapping BRI Global Sentiment Diffusion on Twitter
+with Large Language Models
 
 ## Published Papers (selected)
 - Xiaoshu Gui and **Huiyi Lyu**, “Information Governance and Domestic Conflict: Empirical Testing of Signaling Game Theoretical Models,” World Economics and Politics (世界经济与政治), No.3, 2025, pp.63-93.
