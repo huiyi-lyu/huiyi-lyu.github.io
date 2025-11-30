@@ -6,5 +6,5 @@ main:
   - title: "CV"
     url: /files/cv.pdf
     
-  - title: "中文版"
-    url: /about-chinese/
+#  - title: "中文版"
+#    url: /about-chinese/
